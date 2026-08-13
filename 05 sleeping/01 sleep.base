@@ -1,0 +1,30 @@
+filters:
+  and:
+    - file.inFolder("05 sleeping")
+    - file.basename != "00 guide"
+    - file.ext == "md"
+formulas:
+  age_ms: number(now()) - number(file.ctime)
+  age: (formula.age_ms / 86400000).toFixed(0) + "d"
+properties:
+  file.name:
+    displayName: idea
+  formula.age:
+    displayName: sleeping
+views:
+  - type: table
+    name: all sleeping
+    order:
+      - file.name
+      - formula.age
+    sort:
+      - property: file.ctime
+        direction: ASC
+  - type: table
+    name: check in now
+    filters:
+      and:
+        - file.ctime < now() - "90d"
+    order:
+      - file.name
+      - formula.age

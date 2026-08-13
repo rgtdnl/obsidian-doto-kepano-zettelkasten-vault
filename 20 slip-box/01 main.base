@@ -1,0 +1,66 @@
+filters:
+  and:
+    - note.categories.contains(link("main"))
+    - '!file.inFolder("50 templates")'
+    - file.basename != "00 guide"
+formulas:
+  in: file.backlinks.length
+  out: file.links.length
+properties:
+  file.name:
+    displayName: claim
+  formula.in:
+    displayName: in
+  formula.out:
+    displayName: out
+  note.created:
+    displayName: created
+  note.id:
+    displayName: id
+views:
+  - type: list
+    name: reading list
+    order:
+      - file.name
+  - type: table
+    name: all claims
+    order:
+      - note.id
+      - file.name
+      - formula.in
+      - formula.out
+      - created
+    sort:
+      - property: created
+        direction: DESC
+    summaries:
+      formula.in: Average
+  - type: table
+    name: this month
+    filters:
+      and:
+        - created > now() - "30d"
+    order:
+      - file.name
+      - created
+    sort:
+      - property: created
+        direction: DESC
+  - type: table
+    name: orphans
+    filters:
+      and:
+        - file.links.length == 0
+        - file.backlinks.length == 0
+    order:
+      - file.name
+      - created
+  - type: table
+    name: most connected
+    order:
+      - file.name
+      - formula.in
+    sort:
+      - property: formula.in
+        direction: DESC
+    limit: 25

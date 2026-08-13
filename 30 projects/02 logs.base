@@ -1,0 +1,30 @@
+filters:
+  and:
+    - note.categories.contains(link("creative-log"))
+    - '!file.inFolder("50 templates")'
+    - file.basename != "00 guide"
+properties:
+  file.name:
+    displayName: log
+  project:
+    displayName: project
+  last:
+    displayName: last touched
+views:
+  - type: table
+    name: all logs
+    order:
+      - file.name
+      - project
+      - last
+    sort:
+      - property: last
+        direction: DESC
+  - type: table
+    name: cold logs
+    filters:
+      and:
+        - file.mtime < now() - "21d"
+    order:
+      - file.name
+      - last

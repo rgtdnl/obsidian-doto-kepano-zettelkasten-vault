@@ -1,0 +1,42 @@
+filters:
+  or:
+    - note.categories.contains(link("hub"))
+    - note.categories.contains(link("structure"))
+    - note.categories.contains(link("index"))
+formulas:
+  out: file.links.length
+properties:
+  file.name:
+    displayName: view
+  formula.out:
+    displayName: links out
+  note.created:
+    displayName: created
+views:
+  - type: table
+    name: hub notes
+    filters:
+      and:
+        - note.categories.contains(link("hub"))
+        - '!file.inFolder("50 templates")'
+    order:
+      - file.name
+      - formula.out
+  - type: table
+    name: structure notes
+    filters:
+      and:
+        - note.categories.contains(link("structure"))
+        - '!file.inFolder("50 templates")'
+    order:
+      - file.name
+      - formula.out
+  - type: table
+    name: keyword index
+    filters:
+      and:
+        - note.categories.contains(link("index"))
+        - '!file.inFolder("50 templates")'
+    order:
+      - file.name
+      - created
