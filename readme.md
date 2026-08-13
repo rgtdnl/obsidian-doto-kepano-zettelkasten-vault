@@ -11,6 +11,14 @@ A Zettelkasten vault built around Bob Doto's *A System for Writing* (2024), usin
 
 The book works through the whole method with examples; the vault gives you the structure, the book gives you the practice.
 
+## Resources: Bob Doto in conversation
+
+Podcast episodes featuring the author after the book's publication:
+
+- **Focused** (Relay FM), Episode 209: "A System for Writing, with Bob Doto" (July 2024) — the book's system, creative workflows, and why the zettelkasten matters. https://podcasts.apple.com/us/podcast/a-system-for-writing-with-bob-doto/id1138055739?i=1000663855899
+- **Aidan's Infinite Play**, Episode 45: "Bob Doto: A System For Writing: Capture Ideas, Think Wildly, Write Constantly" (September 2024) — capturing ideas, thinking wildly, writing without writer's block. https://www.listennotes.com/podcasts/aidans-infinite-play/e45-bob-doto-a-system-for-NF7kE9CPas-/
+- **Exam Study Expert**, Episode 205: "A Hands-On Guide To Zettelkasten Notes: Practical Advice from Expert Bob Doto" (November 2025) — practical, hands-on zettelkasten implementation advice. https://examstudyexpert.com/bob-doto/
+
 ## How it works
 
 Each numbered folder starts with `00 guide.md`, its rulebook. Read the `00 guide.md` in a folder before working in it; the rules are specific per stage (e.g. inbox notes get processed weekly, main notes never get archived). The folder's `01 …base` file (and `02 related.base`, `03 views.base` in the slip-box) is its dashboard view.
