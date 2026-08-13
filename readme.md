@@ -59,4 +59,4 @@ Podcast episodes featuring the author after the book's publication:
 
 Method: Bob Doto, *A System for Writing* (2024). Base and categories pattern: kepano (https://github.com/kepano/kepano-obsidian), adapted from the Ahrens vault (obsidian-vault). CC BY 4.0.
 
-Prefer the plain method without dashboards? See the stock Doto version: https://github.com/rgtdnl/obsidian-doto-zettelkasten
+Prefer the plain method without dashboards? See the stock Doto version: https://github.com/rgtdnl/obsidian-doto-zettelkasten-stock-vault
