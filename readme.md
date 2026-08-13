@@ -1,29 +1,15 @@
-# obsidian vault: doto zettelkasten
+# Doto Zettelkasten Vault (Kepano layer)
 
-A Zettelkasten vault built around Bob Doto's *A System for Writing* (2024), using Kepano's base and categories pattern for the dashboards.
+A Zettelkasten vault built around Bob Doto's *A System for Writing* (2024), using Kepano's base and categories pattern for the dashboards. Eight folders, ten templates, eleven category pages.
 
-```
-00 inbox      fleeting captures, processed weekly
-05 sleeping   ideas that resist processing, checked every few months
-07 journal    the daily journal: interstitial logging + end-of-day check-in
-10 reference  reference notes, one long note per source
-20 slip-box   main notes (the ideas) + hub notes, structure notes, keyword index
-30 projects   writing projects, one subfolder per piece
-40 archive    finished projects
-50 templates  note formats
-categories    category pages that back the Bases views
-```
+## The book
 
-## Requirements
+**Bob Doto, *A System for Writing: How an Unconventional Approach to Note-Making Can Help You Capture Ideas, Think Wildly, and Write Constantly* (2024).** A writing-first Zettelkasten: fleeting notes capture, reference notes keep one long note per source, main notes carry single ideas under folgezettel alphanumeric IDs, hub notes and the keyword index keep trains of thought findable, and the journal plus per-project creative logs drive actual writing. This vault is that system translated to Obsidian.
 
-- Obsidian 1.9+ (Bases is a core plugin)
-- Core plugins enabled: **Bases**, **Templates**, **Categories**
+- Author's website: https://writing.bobdoto.computer/
+- Get the book: [Amazon](https://www.amazon.com/dp/B0D18J83VB)
 
-## Setup
-
-1. Enable Templates (Settings → Core plugins) and set its template folder to `50 templates`.
-2. Bases is on by default in 1.9+. No configuration needed.
-3. Enable Categories (Settings → Core plugins) and point it at the `categories` folder.
+The book works through the whole method with examples; the vault gives you the structure, the book gives you the practice.
 
 ## How it works
 
@@ -36,7 +22,7 @@ Each numbered folder starts with `00 guide.md`, its rulebook. Read the `00 guide
 ## The five steps (Doto)
 
 1. **Capture** — fleeting notes land in `00 inbox`; reference notes in `10 reference`.
-2. **Transform** — captures become main notes in `20 slip-box`.
+2. **Transform** — captures become main notes in `20 slip-box`, each with a folgezettel `id`.
 3. **Connect** — link main notes, with context for each link.
 4. **Track** — hub notes, structure notes, and the keyword index keep trains of thought findable.
 5. **Write** — pull trains of thought into `30 projects`; finished work goes to `40 archive`.
@@ -50,7 +36,19 @@ Each numbered folder starts with `00 guide.md`, its rulebook. Read the `00 guide
 - `20 slip-box` / `01 main.base`, `02 related.base`, `03 views.base` — main notes (one idea + link), plus hub notes, structure notes, keyword index. Never archived.
 - `30 projects` / `01 tracker.base`, `02 logs.base` — one subfolder per piece: project note, draft, creative log. References the slip-box, doesn't absorb it.
 - `40 archive` — finished projects only. Not a home for main notes.
+- `50 templates` — ten templates matching the note types.
+
+## Requirements and setup
+
+- Obsidian 1.9+ (Bases is a core plugin)
+- Core plugins enabled: **Bases**, **Templates**, **Categories**
+
+1. Enable Templates (Settings → Core plugins) and set its template folder to `50 templates`.
+2. Bases is on by default in 1.9+. No configuration needed.
+3. Enable Categories (Settings → Core plugins) and point it at the `categories` folder.
 
 ## Credits
 
-Method: Bob Doto, *A System for Writing* (2024). Base and categories pattern: kepano (https://github.com/kepano/kepano-obsidian), adapted from the Ahrens vault (obsidian-vault).
+Method: Bob Doto, *A System for Writing* (2024). Base and categories pattern: kepano (https://github.com/kepano/kepano-obsidian), adapted from the Ahrens vault (obsidian-vault). CC BY 4.0.
+
+Prefer the plain method without dashboards? See the stock Doto version: https://github.com/rgtdnl/obsidian-doto-zettelkasten
