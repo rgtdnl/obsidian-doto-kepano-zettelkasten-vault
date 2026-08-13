@@ -7,3 +7,6 @@
 # OS junk
 .DS_Store
 Thumbs.db
+
+# Personal guide (canonical copy in /workspace/rgtdnl/books/)
+bob-doto-zettelkasten-guide.md
