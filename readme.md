@@ -12,22 +12,22 @@ Each numbered folder starts with `00 guide.md`, its rulebook. Read the `00 guide
 
 ## The five steps (Doto)
 
-1. **Capture** — fleeting notes land in `00 inbox`; reference notes in `10 reference`.
-2. **Transform** — captures become main notes in `20 slip-box`, each with a folgezettel `id`.
-3. **Connect** — link main notes, with context for each link.
-4. **Track** — hub notes, structure notes, and the keyword index keep trains of thought findable.
-5. **Write** — pull trains of thought into `30 projects`; finished work goes to `40 archive`.
+1. **Capture** - fleeting notes land in `00 inbox`; reference notes in `10 reference`.
+2. **Transform** - captures become main notes in `20 slip-box`, each with a folgezettel `id`.
+3. **Connect** - link main notes, with context for each link.
+4. **Track** - hub notes, structure notes, and the keyword index keep trains of thought findable.
+5. **Write** - pull trains of thought into `30 projects`; finished work goes to `40 archive`.
 
 ## Folders
 
-- `00 inbox` / `01 queue.base` — fleeting captures. Process weekly. Three fates: main note, sleeping, delete.
-- `05 sleeping` / `01 sleep.base` — ideas passed over during processing. Check every few months.
-- `07 journal` — the daily journal. Interstitial logging + end-of-day check-in. One file per year.
-- `10 reference` / `01 library.base` — reference notes, one long note per source, brief citations with locators.
-- `20 slip-box` / `01 main.base`, `02 related.base`, `03 views.base` — main notes (one idea + link), plus hub notes, structure notes, keyword index. Never archived.
-- `30 projects` / `01 tracker.base`, `02 logs.base` — one subfolder per piece: project note, draft, creative log. References the slip-box, doesn't absorb it.
-- `40 archive` — finished projects only. Not a home for main notes.
-- `50 templates` — ten templates matching the note types.
+- `00 inbox` / `01 queue.base` - fleeting captures. Process weekly. Three fates: main note, sleeping, delete.
+- `05 sleeping` / `01 sleep.base` - ideas passed over during processing. Check every few months.
+- `07 journal` - the daily journal. Interstitial logging + end-of-day check-in. One file per year.
+- `10 reference` / `01 library.base` - reference notes, one long note per source, brief citations with locators.
+- `20 slip-box` / `01 main.base`, `02 related.base`, `03 views.base` - main notes (one idea + link), plus hub notes, structure notes, keyword index. Never archived.
+- `30 projects` / `01 tracker.base`, `02 logs.base` - one subfolder per piece: project note, draft, creative log. References the slip-box, doesn't absorb it.
+- `40 archive` - finished projects only. Not a home for main notes.
+- `50 templates` - ten templates matching the note types.
 
 ## Requirements and setup
 
@@ -51,9 +51,9 @@ The book works through the whole method with examples; the vault gives you the s
 
 Podcast episodes featuring the author after the book's publication:
 
-- **Focused** (Relay FM), Episode 209: "A System for Writing, with Bob Doto" (July 2024) — the book's system, creative workflows, and why the zettelkasten matters. https://podcasts.apple.com/us/podcast/a-system-for-writing-with-bob-doto/id1138055739?i=1000663855899
-- **Aidan's Infinite Play**, Episode 45: "Bob Doto: A System For Writing: Capture Ideas, Think Wildly, Write Constantly" (September 2024) — capturing ideas, thinking wildly, writing without writer's block. https://www.listennotes.com/podcasts/aidans-infinite-play/e45-bob-doto-a-system-for-NF7kE9CPas-/
-- **Exam Study Expert**, Episode 205: "A Hands-On Guide To Zettelkasten Notes: Practical Advice from Expert Bob Doto" (November 2025) — practical, hands-on zettelkasten implementation advice. https://examstudyexpert.com/bob-doto/
+- **Focused** (Relay FM), Episode 209: "A System for Writing, with Bob Doto" (July 2024) - the book's system, creative workflows, and why the zettelkasten matters. https://podcasts.apple.com/us/podcast/a-system-for-writing-with-bob-doto/id1138055739?i=1000663855899
+- **Aidan's Infinite Play**, Episode 45: "Bob Doto: A System For Writing: Capture Ideas, Think Wildly, Write Constantly" (September 2024) - capturing ideas, thinking wildly, writing without writer's block. https://www.listennotes.com/podcasts/aidans-infinite-play/e45-bob-doto-a-system-for-NF7kE9CPas-/
+- **Exam Study Expert**, Episode 205: "A Hands-On Guide To Zettelkasten Notes: Practical Advice from Expert Bob Doto" (November 2025) - practical, hands-on zettelkasten implementation advice. https://examstudyexpert.com/bob-doto/
 
 ## Credits
 
